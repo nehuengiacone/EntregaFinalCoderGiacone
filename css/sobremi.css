@@ -1,0 +1,180 @@
+@font-face {
+    font-family: "Rubic";
+    src: url("../assets/fonts/Rubik/Rubik-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Social Media";
+    src: url("../assets/fonts/IconsSocialMedia18-8MRYM.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Rubic";
+}
+
+body {
+    background-color: #202124;
+    width: 100%;
+}
+
+/* CABECERA */
+
+#navegacion {
+    width: 100%;
+    height: 10%;
+    background-color: blueviolet;
+}
+
+#navegacion li {
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    left: 33%;
+}
+
+#navegacion a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.titulos {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+#contenedor-img-titulo{
+    width: 100%;
+    /* border: 1px solid blueviolet; */
+    display: inline-block;
+}
+
+#miFoto {
+    width: 100%;
+    /* margin-top: 100px; */
+}
+
+#miFoto img{
+    width: 30%;
+    position: relative;
+    left: 53%;
+    border-radius: 50%;
+}
+
+h1 {
+    /* border: 1px solid blueviolet; */
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+    font-size: 3rem;
+    /* margin: 50px; */
+    position: relative;
+    top: 35vh;
+    left: 20%;
+    display: inline-block;
+}
+
+
+
+
+/* SECCIONES */
+
+#contenedorSecciones{
+    margin-top: 100px;
+    /* border: 1px solid blueviolet; */
+}
+
+.contenidoSeccion {
+    width: 50%;
+    /* border: 1px solid blueviolet; */
+    margin: 50px;
+    text-align: center;
+    position: relative;
+    left: 27%;
+}
+
+.contenido {
+    /* border: 1px solid blueviolet; */
+    padding: 30px;
+    background-color: #4D4549;
+    border-radius: 10%;
+    width: 70%;
+    overflow: hidden;
+    height: 300px;
+}
+
+.contenido p {
+    color: white;
+    overflow: hidden;
+}
+
+.contenidoSeccion p {
+    /* border: 1px solid blueviolet; */
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.seccion {
+    /* border: 1px solid blueviolet; */
+    padding-top: 10px;
+    background-color: #4D4549;
+    border-radius: 10%;
+    width: 100%;
+    text-decoration: underline;
+    overflow: hidden;
+}
+
+.seccion h2 {
+    color: white;
+    text-decoration: underline;
+    font-size: 2rem;
+    text-decoration-color: blueviolet;
+}
+
+#contenidoMin {
+    width: 20%;
+    /* border: 1px solid blueviolet; */
+    margin-top: 20vh;
+    text-align: center;
+    position: relative;
+    left: 40%;
+}
+
+#contenidoMin  p {
+    /* border: 1px solid blueviolet; */
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* FOOTER */
+footer {
+    /* border: 1px solid blueviolet; */
+    /* background-color: blueviolet; */
+    position: relative;
+    top: 20vh;
+    width: 100%;    
+    height: 15vh;
+    /* margin-top: 100px;   */
+}
+
+#contenedorIconos {
+    display: inline;
+    position: relative;
+    left: 85%;
+    top: 30%;
+}
+
+.iconSocialMedia {
+    text-decoration: none;
+    font-family: "Social Media";
+    font-size: 2rem;
+    display: inline-block;
+    margin: 5px;
+}
