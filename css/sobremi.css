@@ -37,64 +37,39 @@ body {
 }
 
 
-/* TITULAR --> CABECERA */
-#titular {
+
+
+
+
+/* SECCIONES */
+
+/* TITULAR --> SECTION */
+
+section {
     margin-top: 10%;
+}
+
+
+#titular {
+    margin-top: 5%;
     margin-bottom: 10%;
 }
 
 
 #titular h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     text-decoration: underline;
     text-decoration-color: blueviolet;
-}
-
-.titulos {
-    color: blueviolet;
-    font-weight: bold;
+    text-align: center;
+    margin: 50px;
 }
 
 
 #imagenPrincipal {
     position: relative;
+    margin-bottom: 0;
 }
 
-#titular p {
-    margin: 0;
-}
-
-@media(min-width: 576px) {
-    #imagenPrincipal{
-        position: absolute;
-        left: 60%;
-        top: 20%;
-        width: 35%;
-    }
-}
-@media(min-width: 768px) {
-    #imagenPrincipal{
-        position: absolute;
-        left: 60%;
-        top: 20%;
-        width: 30%;
-    }
-}
-@media(min-width: 1200px) {
-    #imagenPrincipal{
-        position: absolute;
-        left: 75%;
-        top: 15%;
-        width: 20%;
-    }
-}
-
-
-#contenedor-img-titulo{
-    width: 100%;
-    /* border: 1px solid blueviolet; */
-    display: inline-block;
-}
 
 #miFoto {
     border-radius: 50%;
@@ -102,84 +77,86 @@ body {
 }
 
 
-h1 {
-    text-align: center;
-    text-decoration: underline;
-    text-decoration-color: blueviolet;
-    font-size: 3rem;
-    margin: 50px;
-}
-
-
-
-
-/* SECCIONES */
-
-#contenedorSecciones{
-    margin-top: 100px;
-    /* border: 1px solid blueviolet; */
-}
-
-.contenidoSeccion {
-    width: 50%;
-    /* border: 1px solid blueviolet; */
-    margin: 50px;
-    text-align: center;
+#imagenPrincipal {
     position: relative;
-    left: 27%;
 }
 
-.contenido {
-    /* border: 1px solid blueviolet; */
-    padding: 30px;
-    background-color: #4D4549;
-    border-radius: 10%;
-    width: 70%;
-    overflow: hidden;
-    height: 300px;
+
+@media(min-width: 576px) {
+    #imagenPrincipal{
+        position: absolute;
+        left: 50%;
+        top: 20%;
+        width: 50%;
+    }
+
+    #titular h1 {
+        font-size: 4rem;
+    }
+}
+@media(min-width: 768px) {
+    #imagenPrincipal{
+        position: absolute;
+        left: 60%;
+        top: 10%;
+        width: 40%;
+    }
+}
+@media(min-width: 1200px) {
+    #imagenPrincipal{
+        position: absolute;
+        left: 60%;
+        top: 11%;
+        width: 35%;
+        padding: 50px;
+    }
+
+    #titular h1 {
+        font-size: 6rem;
+    }
 }
 
-.contenido p {
-    color: white;
-    overflow: hidden;
-}
 
-.contenidoSeccion p {
-    /* border: 1px solid blueviolet; */
-    font-size: 1.2rem;
-    margin-bottom: 10px;
+/* OTRA SECCION -> SECTION */
+.contenidoSeccion {
+    text-align: center;
+    margin-top: 60%;
 }
 
 .seccion {
-    /* border: 1px solid blueviolet; */
     padding-top: 10px;
     background-color: #4D4549;
     border-radius: 10%;
     width: 100%;
     text-decoration: underline;
-    overflow: hidden;
 }
 
 .seccion h2 {
     color: white;
     text-decoration: underline;
     font-size: 2rem;
+    overflow: hidden;
     text-decoration-color: blueviolet;
 }
 
-#contenidoMin {
-    width: 20%;
-    /* border: 1px solid blueviolet; */
-    margin-top: 20vh;
-    text-align: center;
-    position: relative;
-    left: 40%;
+
+.contenidoSeccion p {
+    font-size: 1rem;
+}
+@media(min-width: 576px) {
+    .contenidoSeccion p {
+        font-size: 1rem;
+    }
+}
+@media(min-width: 768px) {
+    .contenidoSeccion p {
+        font-size: 1rem;
+    }
 }
 
-#contenidoMin  p {
-    /* border: 1px solid blueviolet; */
-    font-size: 1rem;
-    margin-bottom: 10px;
+.imgSeccion {
+    width: 50%;
+    margin: 20px;
 }
 
 

@@ -20,6 +20,10 @@ body {
     width: 100%;
 }
 
+header {
+    margin-bottom: 25% !important;
+}
+
 /* BARRA DE NAVEGACIÓN --> CABECERA */  
 #navegacion {
     width: 100%;
@@ -96,8 +100,7 @@ body {
 
 /* SECCIONES */
 .contenidoSeccion {
-    text-align: center;
-    margin-top: 60%;
+    text-align: center; 
 }
 
 .seccion {
