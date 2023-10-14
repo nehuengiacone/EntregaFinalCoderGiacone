@@ -1,0 +1,47 @@
+@import "colores/colores";
+@import "layouts/reset";
+@import "layouts/header-styles";
+
+//tarjetas
+.contenidoSeccion {
+    text-align: center;
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+.seccion {
+
+    padding-top: 10px;
+    background-color: $background-color-tarjeta;
+    border-radius: 10%;
+    width: 100%;
+    text-decoration: underline;
+
+    h2 {
+        color: $color-letter;
+        text-decoration: underline;
+        font-size: 2rem;
+        overflow: hidden;
+        text-decoration-color: $underline-color;
+    }
+}
+
+@media(min-width: 576px) {
+    .contenidoSeccion p {
+        font-size: 0.7rem;
+    }
+}
+@media(min-width: 768px) {
+    .contenidoSeccion p {
+        font-size: 0.7rem;
+    }
+}
+
+.imgSeccion {
+    width: 50%;
+    margin: 20px;
+}
+
+@import "layouts/footer-styles";

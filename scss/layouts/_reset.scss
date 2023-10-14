@@ -1,0 +1,27 @@
+@import "../colores/colores";
+
+@font-face {
+    font-family: "Rubic";
+    src: url("../assets/fonts/Rubik/Rubik-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Social Media";
+    src: url("../assets/fonts/IconsSocialMedia18-8MRYM.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: $color-letter;
+    font-family: "Rubic";
+}
+
+body {
+    background-color: $background-color;
+    width: 100%;
+}
+
+header {
+    margin-bottom: 25% !important;
+}
