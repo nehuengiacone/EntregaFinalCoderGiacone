@@ -20,61 +20,102 @@ body {
     width: 100%;
 }
 
-/* CABECERA */
-
+/* BARRA DE NAVEGACIÓN --> CABECERA */  
 #navegacion {
     width: 100%;
     height: 10%;
     background-color: blueviolet;
 }
 
-#navegacion li {
-    display: inline-block;
-    margin: 20px;
-    position: relative;
-    left: 33%;
-}
-
-#navegacion a {
-    text-decoration: none;
+.navegacion__ul__li__a {
     color: white;
-    text-align: center;
+    padding: 20px;
 }
 
-.titulos {
-    color: blueviolet;
-    font-weight: bold;
+.navegacion__ul__li__a:hover {
+    color: white;
 }
 
-#contenedor-img-titulo{
-    width: 100%;
-    /* border: 1px solid blueviolet; */
-    display: inline-block;
+
+
+
+
+
+/* SECCIONES */
+
+/* TITULAR --> SECTION */
+
+section {
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-#miFoto {
-    width: 100%;
-    /* margin-top: 100px; */
+
+#titular {
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 
-#miFoto img{
-    width: 15%;
-    position: relative;
-    left: 60%;
-    border-radius: 50%;
-}
 
-h1 {
-    /* border: 1px solid blueviolet; */
-    text-align: center;
+#titular h1 {
+    font-size: 3rem;
     text-decoration: underline;
     text-decoration-color: blueviolet;
-    font-size: 3rem;
-    /* margin: 50px; */
+    text-align: center;
+    margin: 50px;
+}
+
+
+#imagenPrincipal {
     position: relative;
-    top: 35vh;
-    left: 20%;
-    display: inline-block;
+    margin-bottom: 0;
+}
+
+
+#miFoto {
+    border-radius: 50%;
+    margin-top: 10%; 
+}
+
+
+#imagenPrincipal {
+    position: relative;
+}
+
+
+@media(min-width: 576px) {
+    #imagenPrincipal{
+        position: absolute;
+        left: 50%;
+        top: 10%;
+        width: 50%;
+    }
+
+    #titular h1 {
+        font-size: 4rem;
+    }
+}
+@media(min-width: 768px) {
+    #imagenPrincipal{
+        position: absolute;
+        left: 60%;
+        top: 8%;
+        width: 40%;
+    }
+}
+@media(min-width: 1200px) {
+    #imagenPrincipal{
+        position: absolute;
+        left: 60%;
+        top: 5%;
+        width: 35%;
+        padding: 50px;
+        margin-bottom:10%;
+    }
+
+    #titular h1 {
+        font-size: 6rem;
+    }
 }
 
 
@@ -84,19 +125,6 @@ h1 {
 
 #contenedorSecciones{
     margin-top: 100px;
-    /* border: 1px solid blueviolet; */
-}
-
-
-.seccion {
-    /* border: 1px solid blueviolet; */
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #4D4549;
-    border-radius: 10%;
-    width: 100%;
-    height: 30vh;
-    text-decoration: underline;
 }
 
 .seccion h2 {
@@ -108,67 +136,71 @@ h1 {
     height: 10vh;
 }
 
-.contenidoMin {
-    width: 20%;
-    height: 100%;
-    /* border: 1px solid blueviolet; */
-    text-align: center;
-    position: relative;
-    left: 10%;
-    display: inline-block;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 40vh;
-    overflow: hidden;
-}
 
-.contenidoMin  p {
-    /* border: 1px solid blueviolet; */
-    font-size: 1rem;
-    margin-bottom: 10px;
+.seccion img {
+    margin: 0px;
 }
 
 .icon-font {
-    display: inline-block;
     width: 20%;
-    margin: 5px;
+    /* margin: 5px; */
 }
 
-#otraSeccion {
-    display: block;
-    margin-top: 20vh;
-    padding: 10px;
-    left: 35%;
-    overflow: hidden;
-}
 
 .imgSeccion {
     width: 45%;
 }
 
 
-/* FOOTER */
+
+.contenidoSeccion {
+    text-align: center;
+    margin-top: 20%;
+    padding: 5%;    
+}
+
+.box {
+    margin-top: 16%;
+}
+
+.seccion {
+    padding-top: 10px;
+    background-color: #4D4549;
+    border-radius: 10%;
+    width: 100%;
+    text-decoration: underline;
+}
+
+.seccion h2 {
+    color: white;
+    text-decoration: underline;
+    font-size: 2rem;
+    overflow: hidden;
+    text-decoration-color: blueviolet;
+}
+
+
+.imgSeccion {
+    width: 50%;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* FOOTER -> SOCIAL MEDIA*/
 footer {
-    /* border: 1px solid blueviolet; */
-    /* background-color: blueviolet; */
-    position: relative;
-    top: 20vh;
-    width: 100%;    
-    height: 15vh;
-    /* margin-top: 100px;   */
+    margin-top: 5%;
 }
-
-#contenedorIconos {
-    display: inline;
-    position: relative;
-    left: 85%;
-    top: 30%;
-}
-
 .iconSocialMedia {
     text-decoration: none;
     font-family: "Social Media";
     font-size: 2rem;
-    display: inline-block;
-    margin: 5px;
+    margin-bottom: 1rem !important;
 }
