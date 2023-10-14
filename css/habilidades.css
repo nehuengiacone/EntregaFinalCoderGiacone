@@ -137,20 +137,13 @@ section {
 }
 
 
-.seccion img {
-    margin: 0px;
-}
-
 .icon-font {
     width: 20%;
     /* margin: 5px; */
 }
 
 
-.imgSeccion {
-    width: 45%;
-    padding: 5%;
-}
+
 
 
 
@@ -178,6 +171,7 @@ section {
     font-size: 2rem;
     overflow: hidden;
     text-decoration-color: blueviolet;
+    margin: 0px;
 }
 
 
