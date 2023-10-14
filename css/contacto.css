@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "Rubic";
+    src: url("../assets/fonts/Rubik/Rubik-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Social Media";
+    src: url("../assets/fonts/IconsSocialMedia18-8MRYM.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Rubic";
+}
+
+body {
+    background-color: #202124;
+    width: 100%;
+}
+
+/* BARRA DE NAVEGACIÓN --> CABECERA */  
+#navegacion {
+    width: 100%;
+    height: 10%;
+    background-color: blueviolet;
+}
+
+.navegacion__ul__li__a {
+    color: white;
+    padding: 20px;
+}
+
+.navegacion__ul__li__a:hover {
+    color: white;
+}
+
+
+
+
+
+
+/* SECCIONES */
+
+/* TITULAR --> SECTION */
+
+section {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+#titular {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+
+#titular h1 {
+    font-size: 3rem;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+    text-align: center;
+    margin: 50px;
+}
+
+
+#imagenPrincipal {
+    position: relative;
+    margin-bottom: 0;
+}
+
+
+#miFoto {
+    border-radius: 50%;
+    margin-top: 10%; 
+}
+
+
+#imagenPrincipal {
+    position: relative;
+}
+
+
+@media(min-width: 576px) {
+    #imagenPrincipal{
+        position: absolute;
+        left: 60%;
+        top: 10%;
+        width: 40%;
+    }
+
+    #titular h1 {
+        font-size: 4rem;
+    }
+}
+@media(min-width: 768px) {
+    #imagenPrincipal{
+        position: absolute;
+        left: 60%;
+        top: 8%;
+        width: 40%;
+    }
+}
+@media(min-width: 1200px) {
+    #imagenPrincipal{
+        position: absolute;
+        left: 60%;
+        top: 10%;
+        width: 35%;
+        padding: 50px;
+        margin-bottom:10%;
+    }
+
+    #titular h1 {
+        font-size: 6rem;
+    }
+}
+
+
+
+
+/* SECCIONES */
+section {
+    margin-top: 15%;
+}
+
+/* FOOTER -> SOCIAL MEDIA*/
+footer {
+    margin-top: 5%;
+}
+.iconSocialMedia {
+    text-decoration: none;
+    font-family: "Social Media";
+    font-size: 2rem;
+    margin-bottom: 1rem !important;
+}
